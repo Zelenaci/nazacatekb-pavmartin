@@ -17,5 +17,5 @@ if n >= 2:
 for x in range (2,n):
     c = a+b
     print (c, end=' ')
-    a = b
-    b = c
+    a, b  = b, c
+print()

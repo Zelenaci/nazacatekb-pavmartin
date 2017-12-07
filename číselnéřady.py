@@ -65,9 +65,9 @@ for x in range (0,20):
 print ('součet druhých mocnin celých čísel je',m)
 print ()
 
-print ('šestý příklad')
+print('šestý příklad')
 s = 0
-for x in range (0,20):
-    s = s+seznam[x]
-p = s/20
-print ('aritmetický průměr kladných čísel je',p)
+for x in seznam:
+    s = s + x
+p = s / len(seznam)
+print('aritmetický průměr kladných čísel je', p)
